@@ -1,15 +1,18 @@
 const message = "Hey daar!";
 
+sayHello();
+// say(); // Werkt niet!
+
 function sayHello() {
   const message = "Bye!";
 
-  const say = function () {
+  function say() {
     const newMessage = "YOLO";
     console.log(message);
-  };
+  }
+
   console.log(newMessage);
   say();
 }
 
 sayHello();
-console.log(message);
